@@ -2,7 +2,8 @@
 
 
 @section('content')
-<div class="row">
+<div class="container">
+  <div class="row">
     <div class="col-lg-12 margin-tb">
         <div class="pull-left">
             <h2>Users Management</h2>
@@ -54,7 +55,7 @@
 
 
 {!! $data->render() !!}
+</div>
 
 
-<p class="text-center text-primary"><small>Tutorial by ItSolutionStuff.com</small></p>
 @endsection
